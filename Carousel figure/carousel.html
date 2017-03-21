@@ -3,8 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>轮播图</title>
+    <link href="carousel.css" rel="stylesheet">
 </head>
 <body>
 
+<div class="header">
+    <h1>我是大标题</h1>
+</div>
+<div class="nav">
+    <ul>
+        <li><a href="#">导航</a></li>
+        <li><a href="#">导航</a></li>
+        <li><a href="#">导航</a></li>
+        <li><a href="#">导航</a></li>
+        <li><a href="#">导航</a></li>
+    </ul>
+</div>
+<div class="contain">
+    <div id="list" style="left: -1000px">
+        <a href=""><img src="img/15.jpg" alt=""></a>
+        <a href=""><img src="img/10.jpg" alt=""></a>
+        <a href=""><img src="img/11.jpg" alt=""></a>
+        <a href=""><img src="img/12.jpg" alt=""></a>
+        <a href=""><img src="img/13.jpg" alt=""></a>
+        <a href=""><img src="img/15.jpg" alt=""></a>
+        <a href=""><img src="img/10.jpg" alt=""></a>
+    </div>
+    <div class="button">
+        <span index="1" class="on"></span>
+        <span index="2"></span>
+        <span index="3"></span>
+        <span index="4"></span>
+        <span index="5"></span>
+    </div>
+    <a href="javascirpt:;" class="arrow" id="prev">&lt;</a>
+    <a href="javascirpt:;" class="arrow" id="next">&gt;</a>-10
+</div>
+
+
 </body>
+<script src="carousel.js"></script>
 </html>
