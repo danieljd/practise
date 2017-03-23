@@ -20,10 +20,6 @@ window.onload = function () {
     }
 
 
-
-
-
-
     function animate(offset) {
         var leftValue=parseInt(list.style.left) + offset;
         list.style.left = leftValue + 'px';
