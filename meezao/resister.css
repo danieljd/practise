@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url("../meezao/img/register_bg.png")left top no-repeat;
+    background-size:100% 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: calc(50% - 400px);
+}
+.right{
+    width: 450px;
+    position: absolute;
+    top: 200px;
+    right: calc(50% - 450px);
+    overflow: hidden;
+}
+.right .phonenum,.right .email{
+    position: relative;
+    margin-bottom: 40px;
+}
+.right .phonenum img , .right .email img{
+    position: absolute;
+    top: 15px;
+    left:10px;
+}
+.right input{
+    padding: 0 60px;
+    text-align: center;
+    border-radius: 3px;
+    border:1px solid #e5e5e5;
+
+}
+.right .code{
+    position: relative;
+    margin-bottom: 40px;
+}
+.right .code img{
+    position: absolute;
+    top: 15px;
+    left:10px;
+}
+.right .code a{
+    display: inline-block;
+    width:118px;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    line-height: 52px;
+    text-align: center;
+    color: #fd746c;
+    text-decoration: none;
+    float: right;
+}
+.right .text{
+    font-size: 6px;
+}
+.btn_finish{
+    width: 450px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: #ff3d5a;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
