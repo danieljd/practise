@@ -63,12 +63,15 @@ body,html{
     border-radius: 3px;
     line-height: 52px;
     text-align: center;
-    color: #fd746c;
+    color: #ff3d5a;
     text-decoration: none;
     float: right;
 }
 .right .text{
     font-size: 6px;
+}
+.right .text a{
+    color: #ff3d5a;
 }
 .btn_finish{
     width: 450px;
@@ -80,5 +83,12 @@ body,html{
     background-color: #ff3d5a;
     border-radius: 5px;
     margin-top: 20px;
+    text-decoration: none;
 
+}
+.tips{
+    color: #ff3d5a;
+    position: absolute;
+    top:55px;
+    font-size:5px;
 }
