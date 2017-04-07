@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.top_nav {
+    width: 100%;
+    height: 50px;
+    background-color: #090909;
+    position: fixed;
+}
+.top_nav h1{
+    width: 200px;
+    color: #fff;
+    margin-left: 20px;
+}
+.left_nav{
+    width: 220px;
+    height:100%;
+    background-color: #090909;
+    position: fixed;
+    top: 50px;
+}
+.left_nav li{
+    width: 220px;
+
+    line-height: 30px;
+
+}
+.left_nav li a span {
+    color: #ffffff;
+}
+.nav_bar_level1{
+    margin-left: 10px;
+}
+.nav_bar_level2{
+    display: none;
+    margin-left: 20px;
+}
+.nav_bar_level3{
+    display: none;
+    margin-left: 30px;
+}
+.content{
+    float: right;
+    width:calc(100% - 220px);
+    padding-top: 50px;
+
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+
+.route{
+
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #8e8e8e;
+
+}
+.group_title{
+    padding-left:30px ;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.group_title li{
+    width: 118px;
+    height: 50px;
+    float: left;
+    margin-right: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.group_title_active{
+    color: deepskyblue;
+    border-bottom: 3px solid deepskyblue;
+}
+
+
+.group_content{
+    padding-left: 30px;
+    position: relative;
+
+}
+.step1 i{
+    position: absolute;
+    top:5px;
+    left: 30px;
+    color: #0099ff;
+}
+.step1{
+    padding-left: 40px;
+}
+.step1 ul{
+    margin:20px 0;
+    height: 30px;
+}
+.step1 li{
+    width: 140px;
+    height: 30px;
+    background-color: #eee ;
+    float: left;
+    box-shadow: 3px 3px 3px #ccc;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 20px;
+}
+.step1 .group_divide_active{
+    color: #ffffff;
+    background-color: #0099ff;
+}
+.step2 i{
+    position: absolute;
+    left:30px;
+    top: 100px;
+    color: #ce1;
+}
+.step2{
+    padding-left: 40px;
+}
+.step2 ul{
+    margin-top: 20px;
+}
+.step2 li{
+    width: 136px;
+    height: 140px;
+    float: left;
+    position: relative;
+}
+.step2 .bag li span{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
