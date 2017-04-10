@@ -83,6 +83,10 @@ body,html{
     font-weight: bold;
     cursor: pointer;
 }
+.group_title li:hover{
+    color: deepskyblue;
+    border-bottom: 3px solid deepskyblue;
+}
 .group_title_active{
     color: deepskyblue;
     border-bottom: 3px solid deepskyblue;
@@ -117,6 +121,11 @@ body,html{
     line-height: 30px;
     text-align: center;
     margin-right: 20px;
+    cursor: pointer;
+}
+.step1 li:hover{
+    color: #ffffff;
+    background-color: #0099ff;
 }
 .step1 .group_divide_active{
     color: #ffffff;
@@ -124,31 +133,69 @@ body,html{
 }
 .step2 i{
     position: absolute;
-    left:30px;
-    top: 100px;
+    top: 15px;
+    left: -1px;
     color: #ce1;
 }
 .step2{
     padding-left: 40px;
+    position: relative;
 }
 .step2 ul{
     margin-top: 20px;
 }
 .step2 li{
     width: 136px;
-    height: 140px;
+    height: 120px;
     float: left;
     position: relative;
+    text-align: center;
+    padding: 10px 5px 0px;
+    margin-right: 10px;
+
+}
+.step2 li:hover{
+    background: #ccf0fd;
 }
 .step2 .bag li span{
     position: absolute;
     top: 50px;
-    left: 10px;
+    left: 32px;
     color: #ffffff;
 }
 
+.step2 .bag_active{
+    background: #ccf0fd;
 
+}
+.box{
+    position: absolute;
+    width: 280px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px #b7eafc,
+    -10px -10px 40px #b7eafc;
+    padding: 20px;
+}
+.box .btn{
+    display: block;
+    width: 180px;
+    margin: 10px auto 0;
 
+}
+.box>div{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+.box .btn_modal_close{
+    width: 20px;height: 20px;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    font-size: 16px;
+    color: #2aabd2;
+    cursor:pointer;
+}
 
 
 
